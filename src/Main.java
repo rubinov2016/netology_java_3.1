@@ -5,9 +5,9 @@ public class Main {
         float ticketPrice;      //для хранения стоимости билета
         float bonusRate;        //для хранения количества рублей для одной бонусной милли
         long bonusMile = 0;     //итоговое количество бонусных милль
-        bonusRate = 2F;        //тестовые данные
-        ticketPrice = 134.56F;     //тестовые данные
-        if (ticketPrice>=bonusRate) bonusMile = (long)(ticketPrice/bonusRate);
+        bonusRate = 20F;
+        ticketPrice = 134.56F;
+        bonusMile = (long) (ticketPrice / bonusRate);
         System.out.println(bonusMile);
 
         // Объявляете переменные для входных данных и
@@ -20,3 +20,4 @@ public class Main {
         // новую переменную и выводите на экран
     }
 }
+
